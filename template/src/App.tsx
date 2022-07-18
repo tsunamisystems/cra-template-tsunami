@@ -106,8 +106,8 @@ function App() {
           </div>
           <p className='footer'>
             Created with{' '}
-            <a href='https://github.com/tsunamisystems/cra-template-dapp'>
-              cra-template-dapp
+            <a href='https://github.com/tsunamisystems/cra-template-tsunami'>
+              yarn create react-app --template tsunami
             </a>
           </p>
         </header>
