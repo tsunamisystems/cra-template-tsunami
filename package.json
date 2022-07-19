@@ -1,6 +1,5 @@
 {
   "name": "cra-template-tsunami",
-  "homepage": "/cra-template-tsunami",
   "version": "0.1.5",
   "repository": "github:tsunamisystems/cra-template-tsunami",
   "dependencies": {
