@@ -1,6 +1,6 @@
 {
   "name": "cra-template-tsunami",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "repository": "github:tsunamisystems/cra-template-tsunami",
   "dependencies": {
     "@rainbow-me/rainbowkit": "^0.4.2",
