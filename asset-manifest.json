@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cra-template-tsunami/static/css/main.b928973f.css",
-    "main.js": "/cra-template-tsunami/static/js/main.0e19e098.js",
+    "main.js": "/cra-template-tsunami/static/js/main.6361db6b.js",
     "static/js/777.2b721c35.chunk.js": "/cra-template-tsunami/static/js/777.2b721c35.chunk.js",
     "static/js/451.fd57803d.chunk.js": "/cra-template-tsunami/static/js/451.fd57803d.chunk.js",
     "static/js/61.92422d3d.chunk.js": "/cra-template-tsunami/static/js/61.92422d3d.chunk.js",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.b928973f.css",
-    "static/js/main.0e19e098.js"
+    "static/js/main.6361db6b.js"
   ]
 }
