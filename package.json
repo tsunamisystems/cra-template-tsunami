@@ -1,7 +1,7 @@
 {
   "name": "cra-template-tsunami",
   "homepage": "/cra-template-tsunami",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "dependencies": {
     "@rainbow-me/rainbowkit": "^0.4.2",
     "@testing-library/jest-dom": "^5.14.1",
