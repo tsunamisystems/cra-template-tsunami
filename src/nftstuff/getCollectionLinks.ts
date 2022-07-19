@@ -1,3 +1,6 @@
+import { Chain } from '@rainbow-me/rainbowkit'
+import { etherscanBlockExplorers } from 'wagmi'
+import { allChains } from '../networks'
 import { OpenseaCollectionStats, OpenseaContractResponse } from './openseaTypes'
 export type ButtonInfo = {
   label: string
@@ -7,8 +10,22 @@ export type ButtonInfo = {
 // array of buttoninfos. opensea always first. etherscan always second. dont change stuff
 export function getCollectionLinks(
   contractAddress: string,
-  collectionSlug: string | undefined
+  collectionSlug: string | undefined,
+  chainId = 1
 ): { link: string; label: string }[] {
+  if (chainId !== 1) {
+    const x = allChains.reduce((prev: { [key: number]: Chain }, curr) => {
+      prev[curr.id] = curr
+      return prev
+    }, {})
+    const expl = x[chainId].blockExplorers?.default
+    return [
+      {
+        label: `${expl?.name}`,
+        link: `${expl?.url}/token/${contractAddress}`
+      }
+    ]
+  }
   const first = [
     {
       label: 'etherscan',

@@ -104,12 +104,7 @@ function App() {
               <ConnectButton />
             </div>
           </div>
-          <p className='footer'>
-            Created with{' '}
-            <a href='https://github.com/tsunamisystems/cra-template-tsunami'>
-              yarn create react-app --template tsunami
-            </a>
-          </p>
+          {footer}
         </header>
       </div>
     )
@@ -152,16 +147,19 @@ function App() {
             ))}
           </div>
         </div>
-        <p className='footer'>
-          Created with{' '}
-          <a href='https://github.com/tsunamisystems/cra-template-dapp'>
-            cra-template-dapp
-          </a>
-        </p>
+        {footer}
       </header>
     </div>
   )
 }
+const footer = (
+  <p className='footer'>
+    Created with{' '}
+    <a href='https://github.com/tsunamisystems/cra-template-tsunami'>
+      yarn create react-app --template tsunami
+    </a>
+  </p>
+)
 const decodeError = (e: string) => {
   const prefix = `reason="execution reverted: `
   const i = e.indexOf(prefix)

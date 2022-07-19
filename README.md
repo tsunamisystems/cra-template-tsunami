@@ -8,3 +8,4 @@
 * put deployed contracts in ./src/constants/contractAddresses.ts
 * put abi json file in ./src/constants/abi
 * update App.tsx
+* edit 'homepage' in package.json 
