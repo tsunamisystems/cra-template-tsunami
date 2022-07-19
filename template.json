@@ -21,7 +21,6 @@
       "wagmi": "^0.5.9",
       "web-vitals": "^2.1.0"
     },
-    "homepage": "/cra-template-tsunami",
     "eslintConfig": {
       "extends": [
         "react-app",
