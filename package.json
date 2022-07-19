@@ -2,6 +2,7 @@
   "name": "cra-template-tsunami",
   "homepage": "/cra-template-tsunami",
   "version": "0.1.5",
+  "repository": "github:tsunamisystems/cra-template-tsunami",
   "dependencies": {
     "@rainbow-me/rainbowkit": "^0.4.2",
     "@testing-library/jest-dom": "^5.14.1",
